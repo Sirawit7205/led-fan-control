@@ -1,0 +1,770 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "451654cf-c039-414f-b317-3c9025c3cdfa")
+	(paper "A4")
+	(title_block
+		(title "LED Fan Controller")
+		(date "2024-07-28")
+		(rev "1")
+		(company "Sleepy Pony Labs")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 77.47 76.2) (xy 121.92 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024fa8c4-7c9d-4299-aacf-113fd3fb4504")
+	)
+	(wire
+		(pts
+			(xy 62.23 50.8) (xy 80.01 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088ea4a3-1d88-4a99-a1bc-fb0c29af170b")
+	)
+	(wire
+		(pts
+			(xy 110.49 58.42) (xy 121.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ef19a83-a9fc-43ea-8428-f56f25a6eae6")
+	)
+	(wire
+		(pts
+			(xy 110.49 60.96) (xy 120.65 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13384c13-50e7-4f19-a22b-9b3dcb985957")
+	)
+	(wire
+		(pts
+			(xy 119.38 64.77) (xy 119.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "205ab1e5-765e-4d73-a0ef-cd73bf0719b7")
+	)
+	(wire
+		(pts
+			(xy 62.23 55.88) (xy 80.01 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a59ab9-cae4-4d72-8181-e56fd5a8dd63")
+	)
+	(wire
+		(pts
+			(xy 120.65 62.23) (xy 125.73 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c1b04d-41f5-4c39-a999-f5e1d4ef66a6")
+	)
+	(wire
+		(pts
+			(xy 121.92 67.31) (xy 121.92 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50f377fc-d7ad-4f2b-b245-16b468a79b23")
+	)
+	(wire
+		(pts
+			(xy 123.19 55.88) (xy 123.19 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59d3d91d-5e0f-4414-b1a9-1045d309c852")
+	)
+	(wire
+		(pts
+			(xy 77.47 63.5) (xy 80.01 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6533753c-71d7-4a16-86bf-1e5601b5f6d7")
+	)
+	(wire
+		(pts
+			(xy 62.23 53.34) (xy 80.01 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78546848-6ae1-4d80-94e6-e6677b8d750c")
+	)
+	(wire
+		(pts
+			(xy 110.49 53.34) (xy 125.73 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "898a06c7-3ea7-48f5-9882-e3c9d3c5d04b")
+	)
+	(wire
+		(pts
+			(xy 74.93 73.66) (xy 74.93 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e07119a-ab2c-4f07-be6e-d5c0b7e6bdf2")
+	)
+	(wire
+		(pts
+			(xy 113.03 63.5) (xy 113.03 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93880095-4c4f-4ded-8084-0ee5b5612e3b")
+	)
+	(wire
+		(pts
+			(xy 110.49 55.88) (xy 123.19 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f01080-dc34-48df-9e22-ec6b2d124c23")
+	)
+	(wire
+		(pts
+			(xy 110.49 50.8) (xy 125.73 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9701cbe2-8a0c-40fd-ab0a-92b51b1d6810")
+	)
+	(wire
+		(pts
+			(xy 123.19 57.15) (xy 125.73 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae2258e-ac1d-4689-8c09-8fa1ac1bb1ab")
+	)
+	(wire
+		(pts
+			(xy 125.73 67.31) (xy 121.92 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a338dacc-59ab-4653-8856-b07df0b1840c")
+	)
+	(wire
+		(pts
+			(xy 121.92 58.42) (xy 121.92 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a64fe690-dba0-42c7-9023-088244a63f26")
+	)
+	(wire
+		(pts
+			(xy 110.49 63.5) (xy 113.03 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38e693d-756b-4cb6-873d-1ebc178c02ad")
+	)
+	(wire
+		(pts
+			(xy 77.47 76.2) (xy 77.47 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc5b5d4-4aa0-44b0-b18d-d3fc16413702")
+	)
+	(wire
+		(pts
+			(xy 120.65 60.96) (xy 120.65 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b98b84-3c82-488f-98f3-eb797103be2d")
+	)
+	(wire
+		(pts
+			(xy 121.92 59.69) (xy 125.73 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c349240e-722e-4cb0-9651-b0ecff6ddf55")
+	)
+	(wire
+		(pts
+			(xy 74.93 60.96) (xy 80.01 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdedac0d-e738-48f5-bd4c-37af9231f4ea")
+	)
+	(wire
+		(pts
+			(xy 113.03 71.12) (xy 125.73 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d26631dd-40b7-4ef2-bfe4-8cdec84941e9")
+	)
+	(wire
+		(pts
+			(xy 125.73 64.77) (xy 119.38 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2f003ff-3764-4283-b493-207b74e4cddc")
+	)
+	(wire
+		(pts
+			(xy 74.93 73.66) (xy 119.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edbed18d-ff2f-4514-99f9-594a6bae6523")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 46.99 85.09 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bec8e0a6-d5da-40ba-8f88-7a162fb52bf3")
+		(property "Reference" "H1"
+			(at 49.53 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 49.53 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 46.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 46.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "fan_charger"
+				(path "/451654cf-c039-414f-b317-3c9025c3cdfa"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 80.01 46.99)
+		(size 30.48 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7c4b743e-5e22-4530-a073-1357fef8a28e")
+		(property "Sheetname" "MCU"
+			(at 80.01 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 80.01 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IPROPI" input
+			(at 80.01 63.5 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a09bddb4-5424-4f8c-96c0-89400b5b7a84")
+		)
+		(pin "VREF" output
+			(at 110.49 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5bad5ad0-7034-4f1a-8bc3-653d7175867b")
+		)
+		(pin "~{SLEEP}" output
+			(at 110.49 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "77a8fc44-0e2c-41ca-99da-93735b0e71b0")
+		)
+		(pin "FAN_PWM_IN1" output
+			(at 110.49 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "26702bfe-db1e-4cd4-b416-6f1a9ff3794f")
+		)
+		(pin "~{FAULT}" input
+			(at 80.01 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "57992dab-052f-4fac-b92b-e3e3bcefcb31")
+		)
+		(pin "FAN_PWM_IN2" output
+			(at 110.49 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a40c4b92-7fa1-446f-975a-d6754da93592")
+		)
+		(pin "LED_PWM_IN" output
+			(at 110.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e8c9d59b-1fad-4fc5-a92a-1acb4e27e085")
+		)
+		(pin "BOOST_EN" output
+			(at 110.49 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "30220f07-3aee-4fc4-a9f0-2c018ff730b9")
+		)
+		(pin "~{CHG_CE}" output
+			(at 80.01 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b9bae52b-fb78-4d3b-90f5-b0165ca2464e")
+		)
+		(pin "CHG_STAT2" input
+			(at 80.01 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5df4e1b4-a1f9-4983-a264-5cc071075e38")
+		)
+		(pin "CHG_STAT1" input
+			(at 80.01 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "45a88b83-8c0f-4f16-aa71-2153ea6618b6")
+		)
+		(instances
+			(project "fan_charger"
+				(path "/451654cf-c039-414f-b317-3c9025c3cdfa"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 46.99)
+		(size 17.78 29.21)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d07c2620-f1e0-42b7-b6d4-6b88958a59f5")
+		(property "Sheetname" "Motor Driver and LED"
+			(at 125.73 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_led.kicad_sch"
+			(at 125.73 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BOOST_EN" input
+			(at 125.73 50.8 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "adbb505d-860c-40a8-bd75-4b6943e5b7e0")
+		)
+		(pin "FAN_PWM_IN2" input
+			(at 125.73 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c437e3f0-974d-407a-8a0d-ef0b980dde97")
+		)
+		(pin "~{FAULT}" output
+			(at 125.73 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d5e44ed3-57a0-459f-b752-bb2de4f49981")
+		)
+		(pin "IPROPI" output
+			(at 125.73 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ea238521-6653-4b14-9f4e-61e544b74bb6")
+		)
+		(pin "FAN_PWM_IN1" input
+			(at 125.73 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9436eb59-5cbd-4227-8f7e-55c685825a97")
+		)
+		(pin "VREF" input
+			(at 125.73 53.34 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c40ebf08-503b-40c0-922c-65bb00583f2e")
+		)
+		(pin "~{SLEEP}" input
+			(at 125.73 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4200de92-599f-4ee8-996c-eb77803f0adf")
+		)
+		(pin "LED_PWM_IN" input
+			(at 125.73 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ea83e93a-4cde-41f6-843c-cf8ee1d2e467")
+		)
+		(instances
+			(project "fan_charger"
+				(path "/451654cf-c039-414f-b317-3c9025c3cdfa"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 46.99)
+		(size 17.78 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ffb6837f-389d-49ff-9f0b-a749182a2ce2")
+		(property "Sheetname" "Power Input and Battery"
+			(at 44.45 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_battery.kicad_sch"
+			(at 44.45 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "STAT1" output
+			(at 62.23 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9b2e757c-7dec-403a-8f1c-c7739a5b85da")
+		)
+		(pin "STAT2" output
+			(at 62.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4118334d-db52-48cd-a08c-0cc1a0a5d8ff")
+		)
+		(pin "~{CE}" input
+			(at 62.23 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "745c5f6c-1bba-4e63-825c-d68d4ad1e024")
+		)
+		(instances
+			(project "fan_charger"
+				(path "/451654cf-c039-414f-b317-3c9025c3cdfa"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

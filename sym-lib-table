@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "fan_charger")(type "KiCad")(uri "${KIPRJMOD}/lib/fan_charger.kicad_sym")(options "")(descr ""))
+)
