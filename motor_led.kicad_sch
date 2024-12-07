@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "LED Fan Controller")
-		(date "2024-07-28")
-		(rev "1")
+		(date "2024-12-07")
+		(rev "2")
 		(company "Sleepy Pony Labs")
 	)
 	(lib_symbols
@@ -4790,9 +4790,9 @@
 		(at 187.96 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3a7464bd-caa1-4fbe-bd4a-51fae40df21d")
 		(property "Reference" "C24"
 			(at 190.5 43.18 0)
@@ -5336,6 +5336,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 180.34 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e4ba3ea-d242-4587-b22c-91b7f52e0e58")
+		(property "Reference" "#PWR049"
+			(at 180.34 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 180.34 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 180.34 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "158ec585-46e8-444d-8ce2-764a3a6346e7")
+		)
+		(instances
+			(project "fan_charger"
+				(path "/451654cf-c039-414f-b317-3c9025c3cdfa/d07c2620-f1e0-42b7-b6d4-6b88958a59f5"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 187.96 49.53 0)
 		(unit 1)
@@ -5616,72 +5682,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 193.04 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "77957ffd-f4d5-4277-925f-bb0ed8ac5c6d")
-		(property "Reference" "#PWR033"
-			(at 193.04 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 193.04 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 193.04 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28d5c85e-73e6-4aa9-a083-99891058473c")
-		)
-		(instances
-			(project "fan_charger"
-				(path "/451654cf-c039-414f-b317-3c9025c3cdfa/d07c2620-f1e0-42b7-b6d4-6b88958a59f5"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 130.81 67.31 90)
 		(unit 1)
@@ -5935,72 +5935,6 @@
 			(project "fan_charger"
 				(path "/451654cf-c039-414f-b317-3c9025c3cdfa/d07c2620-f1e0-42b7-b6d4-6b88958a59f5"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 180.34 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83b1f0e7-c0b2-43be-853f-1cdf5b3e9616")
-		(property "Reference" "#PWR030"
-			(at 180.34 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 180.34 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 180.34 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7320db5e-553c-4180-93f8-8529dd52d49d")
-		)
-		(instances
-			(project ""
-				(path "/451654cf-c039-414f-b317-3c9025c3cdfa/d07c2620-f1e0-42b7-b6d4-6b88958a59f5"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -6691,72 +6625,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 35.56 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a31c3b65-80e4-4dce-9adc-cdb82c51bc2b")
-		(property "Reference" "#PWR022"
-			(at 35.56 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 35.56 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 35.56 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "919c8cfc-1609-4d8f-b0f2-41571f2ea06b")
-		)
-		(instances
-			(project ""
-				(path "/451654cf-c039-414f-b317-3c9025c3cdfa/d07c2620-f1e0-42b7-b6d4-6b88958a59f5"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 180.34 64.77 0)
 		(unit 1)
@@ -6955,6 +6823,72 @@
 			(project "fan_charger"
 				(path "/451654cf-c039-414f-b317-3c9025c3cdfa/d07c2620-f1e0-42b7-b6d4-6b88958a59f5"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 35.56 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bfee1f49-f064-4047-8374-214a42052e8d")
+		(property "Reference" "#PWR022"
+			(at 35.56 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 35.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 35.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b3e6712-56b9-412e-b895-61e6a18a79ff")
+		)
+		(instances
+			(project ""
+				(path "/451654cf-c039-414f-b317-3c9025c3cdfa/d07c2620-f1e0-42b7-b6d4-6b88958a59f5"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7293,6 +7227,72 @@
 			(project ""
 				(path "/451654cf-c039-414f-b317-3c9025c3cdfa/d07c2620-f1e0-42b7-b6d4-6b88958a59f5"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 193.04 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb4abfd5-9c16-4e4c-9838-94e63688eaf9")
+		(property "Reference" "#PWR050"
+			(at 193.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 193.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 193.04 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcda5c17-09c9-4816-9980-f617bc2e6d7c")
+		)
+		(instances
+			(project "fan_charger"
+				(path "/451654cf-c039-414f-b317-3c9025c3cdfa/d07c2620-f1e0-42b7-b6d4-6b88958a59f5"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7690,9 +7690,9 @@
 		(at 35.56 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "f8d1e8c7-9001-47dd-8d6d-7d545de1a614")
 		(property "Reference" "C23"
 			(at 38.1 67.31 0)

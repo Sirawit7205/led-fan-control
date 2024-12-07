@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "LED Fan Controller")
-		(date "2024-07-28")
-		(rev "1")
+		(date "2024-12-07")
+		(rev "2")
 		(company "Sleepy Pony Labs")
 	)
 	(lib_symbols
@@ -106,16 +106,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 50.8) (xy 80.01 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "088ea4a3-1d88-4a99-a1bc-fb0c29af170b")
-	)
-	(wire
-		(pts
 			(xy 110.49 58.42) (xy 121.92 58.42)
 		)
 		(stroke
@@ -143,16 +133,6 @@
 			(type default)
 		)
 		(uuid "205ab1e5-765e-4d73-a0ef-cd73bf0719b7")
-	)
-	(wire
-		(pts
-			(xy 62.23 55.88) (xy 80.01 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24a59ab9-cae4-4d72-8181-e56fd5a8dd63")
 	)
 	(wire
 		(pts
@@ -196,7 +176,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 53.34) (xy 80.01 53.34)
+			(xy 62.23 50.8) (xy 80.01 50.8)
 		)
 		(stroke
 			(width 0)
@@ -363,6 +343,16 @@
 			(type default)
 		)
 		(uuid "edbed18d-ff2f-4514-99f9-594a6bae6523")
+	)
+	(wire
+		(pts
+			(xy 62.23 53.34) (xy 80.01 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f74ab2b3-fd07-470e-a5a6-bbcd6bd7c59c")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -538,18 +528,8 @@
 			)
 			(uuid "30220f07-3aee-4fc4-a9f0-2c018ff730b9")
 		)
-		(pin "~{CHG_CE}" output
-			(at 80.01 55.88 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b9bae52b-fb78-4d3b-90f5-b0165ca2464e")
-		)
-		(pin "CHG_STAT2" input
-			(at 80.01 53.34 180)
+		(pin "CHG_STAT" input
+			(at 80.01 50.8 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -558,15 +538,15 @@
 			)
 			(uuid "5df4e1b4-a1f9-4983-a264-5cc071075e38")
 		)
-		(pin "CHG_STAT1" input
-			(at 80.01 50.8 180)
+		(pin "~{CHG_EN}" output
+			(at 80.01 53.34 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "45a88b83-8c0f-4f16-aa71-2153ea6618b6")
+			(uuid "32c69825-1b8b-4627-b998-94749437338a")
 		)
 		(instances
 			(project "fan_charger"
@@ -724,7 +704,7 @@
 				(justify left top)
 			)
 		)
-		(pin "STAT1" output
+		(pin "~{CHG}" output
 			(at 62.23 50.8 0)
 			(effects
 				(font
@@ -732,9 +712,9 @@
 				)
 				(justify right)
 			)
-			(uuid "9b2e757c-7dec-403a-8f1c-c7739a5b85da")
+			(uuid "75d2039b-f084-4f58-b992-d5c5efcb5b86")
 		)
-		(pin "STAT2" output
+		(pin "~{CE}" input
 			(at 62.23 53.34 0)
 			(effects
 				(font
@@ -742,17 +722,7 @@
 				)
 				(justify right)
 			)
-			(uuid "4118334d-db52-48cd-a08c-0cc1a0a5d8ff")
-		)
-		(pin "~{CE}" input
-			(at 62.23 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "745c5f6c-1bba-4e63-825c-d68d4ad1e024")
+			(uuid "e3eeb014-b8f7-43d6-8934-bce396e7a9a3")
 		)
 		(instances
 			(project "fan_charger"
